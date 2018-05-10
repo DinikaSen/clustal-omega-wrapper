@@ -4,7 +4,7 @@
   "description": "Node module that wraps functionalities of Clustal Omega multiple sequence alignment program",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "dependencies": {
     "download-file": "^0.1.5",
