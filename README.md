@@ -89,7 +89,6 @@ The output can be in any of the following formats (set 'outputFormat' to one of 
   ```javascript
   var clustalOmega = require('clustal-omega-wrapper');
   var customExecPath = 'Downloads/bin';
-  var outputType = 'fasta';
   
-  clustalOmega.setCustomLocation('../../Downloads');
+  clustalOmega.setCustomLocation(customExecPath);
 
