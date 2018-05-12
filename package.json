@@ -1,5 +1,5 @@
 {
-  "name": "jsbiotools-clustalo_wrapper",
+  "name": "clustal-omega-wrapper",
   "version": "1.0.0",
   "description": "Node module that wraps functionalities of Clustal Omega multiple sequence alignment program",
   "main": "index.js",
@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "download-file": "^0.1.5",
-    "glob": "^7.1.2",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
@@ -19,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DinikaSen/jsBioTools-ClustalO_Wrapper.git"
+    "url": "git+https://github.com/DinikaSen/clustal-omega-wrapper.git"
   },
   "keywords": [
     "bioinformatics",
@@ -28,13 +27,12 @@
     "clustal",
     "omega",
     "multiple",
-    "sequence",
-    "alignment"
+    "wrapper"
   ],
   "author": "Dinika Senarath",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DinikaSen/jsBioTools-ClustalO_Wrapper/issues"
+    "url": "https://github.com/DinikaSen/clustal-omega-wrapper/issues"
   },
-  "homepage": "https://github.com/DinikaSen/jsBioTools-ClustalO_Wrapper#readme"
+  "homepage": "https://github.com/DinikaSen/clustal-omega-wrapper#readme"
 }
