@@ -25,7 +25,7 @@ It will download the Clustal Omega executable to util/bin folder
   callback passed (err, stdOut, stdErr)
   
   ```javascript
-  var clustalOmega = require('clustal-omega-wrapper');
+  const clustalOmega = require('clustal-omega-wrapper');
   var inputFile = 'samples/example.fasta';
   var outputType = 'fasta';
   
@@ -42,7 +42,7 @@ It will download the Clustal Omega executable to util/bin folder
   callback passed (err, output)
   
   ```javascript
-    var clustalOmega = require('clustal-omega-wrapper');
+    const clustalOmega = require('clustal-omega-wrapper');
     var outputType = 'fasta';
     var input = '>test1\n' +
               'ACDEFGHIKLMNPQRSTVWY\n' +
@@ -87,7 +87,7 @@ The output can be in any of the following formats (set 'outputFormat' to one of 
 
  
   ```javascript
-  var clustalOmega = require('clustal-omega-wrapper');
+  const clustalOmega = require('clustal-omega-wrapper');
   var customExecPath = 'Downloads/bin';
   
   clustalOmega.setCustomLocation(customExecPath);
